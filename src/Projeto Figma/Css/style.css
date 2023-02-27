@@ -1,0 +1,176 @@
+.linha {
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
+}
+.topo{
+    background: #F19A18;
+    font-family: 'Inter', sans-serif
+}
+footer.topo{
+    color: #FFFFFF;
+    text-align: center;
+}
+body{
+    margin: 0;
+}
+
+/*Tratamento de imagem*/
+.logo {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.imgpizza{
+    height: 175px;
+    width: 185px;
+    border-radius: 10px;
+}
+.icon{
+    width: 17px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+p.titulo{
+    font-weight: 10px;
+    background: #EDEDED;
+    color: #828382;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 5px 0 5px 35px;
+    border-radius: 5px;
+    display: inline-block;
+}
+h3.titulo{
+    color: #f12013;
+	-webkit-text-stroke: 0.5px black; 
+    font-size: 25px;
+    margin: 20px 0 10px 0;
+}
+/**/
+
+
+.filapizza{
+    display: flex;
+    margin: 0 auto;
+}
+.refri{
+    height: 175px;
+    width: 180px;}
+
+/* listas  */
+.menu{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+ul.menu{
+    margin-top: 40px;
+}
+ul.menu li{
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+ul.menu li:hover{
+    text-decoration: none;
+    background: #F6B046;
+}
+ul li a{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+ul.inline li {
+    display: inline;
+    margin-right: 10px;
+}
+ul.inline li:last-child{
+    margin-right: 0;
+}
+ul.sem-marcador{ 
+    list-style: none;    
+}
+
+footer p{
+    padding: ;
+}
+
+/* */
+
+/*lista de pizzas*/
+.pizza{
+    font-family: 'Comfortaa', cursive;
+}
+table {
+    margin: 0 auto;
+}
+td, th{
+    padding: 10px;
+    border: 1px solid black;
+}
+.teste{
+    margin-right: 20px;
+    text-align: center;
+}
+
+  
+/*Grades do site*/  
+.rodape{
+    background: #282727;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+.coluna {
+    padding: 0 10px;
+    float: left;
+}
+
+.col1 {
+    width: 60px;
+}
+
+.col2 {
+    width: 140px;
+}
+
+.col3 {
+    width: 220px
+}
+
+.col4 {
+    width: 300px
+}
+
+.col5 {
+    width: 380px
+}
+
+.col6 {
+    width: 460px;
+}
+
+.col7 {
+    width: 540px;
+}
+
+.col8 {
+    width: 620px;
+}
+
+.col9 {
+    width: 700px;
+}
+
+.col10 {
+    width: 780px;
+}
+
+.col11 {
+    width: 860px;
+}
+
+.col12 {
+    width: 940px;
+}
